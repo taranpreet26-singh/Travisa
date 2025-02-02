@@ -50,7 +50,7 @@ const AboutCompany = () => {
             <div className="flex flex-wrap items-center">
               <div className="bg-gray-800 text-center rounded-lg p-6">
                 <FileText size={40} className="text-[#ff014f] mb-2" />
-                <h1 className="text-4xl font-bold">34</h1>
+                <h1 className="text-4xl font-bold">11+</h1>
                 <p className="text-gray-400">Years of Experience</p>
               </div>
 
@@ -77,7 +77,7 @@ const AboutCompany = () => {
 
               <div>
                 <span className="text-[#ff014f] text-lg">Have any questions?</span>
-                <p className="font-bold text-2xl tracking-wide">Free: +0123 456 7890</p>
+                <p className="font-bold text-2xl tracking-wide">Free: +91 90236 44254</p>
               </div>
             </div>
 

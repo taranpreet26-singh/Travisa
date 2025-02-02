@@ -5,7 +5,7 @@ import { Globe, Users, CheckCircle, Handshake } from "lucide-react";
 
 const counters = [
   { icon: <Globe size={40} />, label: "Visa Categories", value: 31, suffix: "+" },
-  { icon: <Users size={40} />, label: "Team Members", value: 377, suffix: "+" },
+  { icon: <Users size={40} />, label: "Team Members", value: 10, suffix: "+" },
   { icon: <CheckCircle size={40} />, label: "Visa Process", value: 4.9, suffix: "K" },
   { icon: <Handshake size={40} />, label: "Success Rates", value: 98, suffix: "%" },
 ];

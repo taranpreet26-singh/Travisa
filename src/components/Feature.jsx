@@ -31,7 +31,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="bg-[#212428] h-[90vh] overflow-hidden">
+    <div className="bg-[#212428] max-h-fit overflow-hidden">
       <div className="px-4 md:px-8 lg:px-16">
         <div className="text-center mb-12">
           <h5 className="text-[#ff014f] text-xl font-semibold uppercase tracking-wider mb-2">Why Choose Us</h5>
@@ -69,7 +69,7 @@ const Features = () => {
             </motion.div>
           ))}
 
-          <div className="col-span-1 sm:col-span-2 lg:col-span-3 xl:col-span-4 mt-8 text-center">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-3 xl:col-span-4 mt-8 mb-10 text-center">
             <Link
               to="/service"
               className="btn bg-[#ff014f] text-white rounded-full py-3 px-6 text-lg hover:bg-transparent hover:text-[#ff014f] border-2 border-[#ff014f] transition-all duration-300"

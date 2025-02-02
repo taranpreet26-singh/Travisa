@@ -3,41 +3,42 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Person Name 1",
-    profession: "Profession 1",
-    image: "https://via.placeholder.com/100",
+    name: "Emily Johnson",
+    profession: "Software Engineer",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
+      "The visa application process was seamless and stress-free. The team provided excellent guidance and ensured all my documents were in order. Highly recommended!",
   },
   {
-    name: "Person Name 2",
-    profession: "Profession 2",
-    image: "https://via.placeholder.com/100",
+    name: "Michael Smith",
+    profession: "Business Consultant",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
+      "I was impressed by the professionalism and efficiency. They handled everything smoothly, and I got my visa much faster than expected. A great service overall!",
   },
   {
-    name: "Person Name 3",
-    profession: "Profession 3",
-    image: "https://via.placeholder.com/100",
+    name: "Sophia Martinez",
+    profession: "Freelance Writer",
+    image: "https://randomuser.me/api/portraits/women/68.jpg",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
+      "Very reliable and knowledgeable team! They answered all my queries patiently and guided me through every step. I will definitely use their services again.",
   },
   {
-    name: "Person Name 4",
-    profession: "Profession 4",
-    image: "https://via.placeholder.com/100",
+    name: "Daniel Lee",
+    profession: "Marketing Manager",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
+      "The customer support was outstanding! They kept me updated throughout the entire process, making everything so simple and hassle-free. Thank you!",
   },
   {
-    name: "Person Name 5",
-    profession: "Profession 5",
-    image: "https://via.placeholder.com/100",
+    name: "Olivia Brown",
+    profession: "University Student",
+    image: "https://randomuser.me/api/portraits/women/23.jpg",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.",
+      "Getting a student visa seemed overwhelming, but this team made it so easy! They guided me through everything, and I got my visa without any issues.",
   },
 ];
+
 
 const Testimonial = () => {
   return (
@@ -51,10 +52,7 @@ const Testimonial = () => {
             What Our Clients Say
           </h1>
           <p className="text-gray-400 text-lg sm:w-10/12 md:w-8/12 mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            deleniti amet at atque sequi quibusdam cumque itaque repudiandae
-            temporibus, eius nam mollitia voluptas maxime veniam necessitatibus
-            saepe in ab? Repellat!
+          Our clients trust us for a smooth and hassle-free visa application process. They appreciate our expertise, personalized support, and commitment to making the journey stress-free. Many have shared how our team guided them step by step, ensuring accurate documentation and timely approvals.
           </p>
         </div>
 

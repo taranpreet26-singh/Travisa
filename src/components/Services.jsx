@@ -2,11 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const visaCategories = [
-  { title: "Job Visa", img: "img/service-1.jpg" },
-  { title: "Business Visa", img: "img/service-2.jpg" },
-  { title: "Diplomatic Visa", img: "img/service-3.jpg" },
   { title: "Student Visa", img: "img/service-1.jpg" },
-  { title: "Residence Visa", img: "img/service-2.jpg" },
+  { title: "Visitor Visa", img: "img/service-2.jpg" },
   { title: "Tourist Visa", img: "img/service-3.jpg" }
 ];
 
