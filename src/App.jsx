@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true);
-    }, 1000); // 1 second delay before showing ad
+    }, 10000); // 1 second delay before showing ad
 
     return () => clearTimeout(timer);
   }, []);
