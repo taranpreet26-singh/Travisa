@@ -1,0 +1,21 @@
+@import "tailwindcss";
+body{
+    color:#c4cfde;
+    background-color: #212428;
+    position: relative;
+  }
+  
+
+  @keyframes scrollCarousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scrollCarousel 20s linear infinite;
+  }
+  
