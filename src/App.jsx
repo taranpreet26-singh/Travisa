@@ -10,8 +10,7 @@ import Footer from './components/Footer';
 import PopupAdForm from './components/Advertise';
 
 function App() {
-  const [showAd, setShowAd] = useState(true); // Initially, only the ad is visible
-
+  const [showAd, setShowAd] = useState(false); 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true);

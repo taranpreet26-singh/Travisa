@@ -19,7 +19,7 @@ const Navbar = () => {
         
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate("/")}>
           <img src="img/brand-logo.png" alt="Brand" className="h-10 w-auto" />
-          <h1 className="text-4xl font-bold text-white">Travisa</h1>
+          <h1 className="text-4xl font-bold text-white">FFC</h1>
         </div>
 
         <button className="lg:hidden text-white focus:outline-none" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation">

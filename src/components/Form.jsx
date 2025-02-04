@@ -56,13 +56,13 @@ const Form = () => {
             </motion.div>
         </div>
         <div className="text-center text-white">
-          <h1 className="text-3xl font-semibold">Nevine Acotanza</h1>
+          <h1 className="text-3xl font-semibold">Ishan Arora</h1>
           <h2 className="text-3xl font-semibold">Visa Consultant</h2>
           <p className="text-lg mt-2">You can reach out to me via mail or contact details below</p>
         </div>
         <div className="text-center text-white">
           <p className="text-lg">Phone: +91 90236 44254</p>
-          <p className="text-lg">Email: admin@exmaple.com</p>
+          <p className="text-lg">Email: ishanarora594@gmail.com</p>
         </div>
         <div className="flex justify-center gap-6 mt-4">
           <motion.div

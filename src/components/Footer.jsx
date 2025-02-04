@@ -9,17 +9,15 @@ const Footer = () => {
           <div className="footer-item space-y-4">
             <h4 className="text-[#ff014f] text-2xl font-semibold">Contact Info</h4>
             <p className="flex items-center text-gray-300 hover:text-white transition-all">
-              <i className="fa fa-map-marker-alt mr-2"></i> 123 Street, New York, USA
+              <i className="fa fa-map-marker-alt mr-2"></i> Shop No 12 Near Kidney Hospital Cool Road Jalandhar Punjab
             </p>
             <p className="flex items-center text-gray-300 hover:text-white transition-all">
-              <i className="fas fa-envelope mr-2"></i> info@example.com
+              <i className="fas fa-envelope mr-2"></i> ishanarora594@gmail.com
             </p>
             <p className="flex items-center text-gray-300 hover:text-white transition-all">
-              <i className="fas fa-phone mr-2"></i> +012 345 67890
+              <i className="fas fa-phone mr-2"></i> +91 90236 44254
             </p>
-            <p className="flex items-center text-gray-300 hover:text-white transition-all mb-3">
-              <i className="fas fa-print mr-2"></i> +012 345 67890
-            </p>
+            
             <div className="flex space-x-3">
               <Link
                 to="https://www.facebook.com"
@@ -80,6 +78,9 @@ const Footer = () => {
             </Link>
             <Link to="/service" className="flex items-center text-gray-300 hover:text-white transition-all">
               <i className="fas fa-angle-right mr-2"></i> Counselling
+            </Link>
+            <Link to="/service" className="flex items-center text-gray-300 hover:text-white transition-all">
+              <i className="fas fa-angle-right mr-2"></i> B2B
             </Link>
             <Link to="/service" className="flex items-center text-gray-300 hover:text-white transition-all">
               <i className="fas fa-angle-right mr-2"></i> Work / Career
